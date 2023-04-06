@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>final project 1</title>
+  <link rel="stylesheet" href="assets/css/all.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- header -->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light
+        bg-light sticky-top ">
+      <div class="container p-3 ps-4">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/logo-black.png" class="" alt="" max-width="95px">
+        </a>
+        <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="align-item-center navbar-nav me-auto mb-2 mb-lg-0 ps-5 fa-solid2">
+            <li class="padding">
+              <i class="fa-solid fa-square-phone-flip pe-2 "></i>
+              91 800 458 568
+            </li>
+            <li>
+              <i class="fa-solid fa-location-dot pe-2 "></i>
+              Wasington Baseben
+            </li>
+          </ul>
+          <ul class="navbar-nav me-0 mb-2 mb-lg-0 ms-auto justify-content-end">
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+          </ul>
+          <button class="btn me-3">testy Coffee</button>
+    </nav>
+  </header>
+
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top ">
+    <div class="container">
+      <div class="collapse navbar-collapse nav1 ms-3 position-relative" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-5 py-2">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item position-relative ">
+            <a class="nav-link" href="#">About US</a>
+          </li>
+          <li class="nav-item position-relative">
+            <a class="nav-link" href="#">menu</a>
+          </li>
+          <li class="nav-item position-relative">
+            <a class="nav-link" href="#">Reservation</a>
+          </li>
+          <li class="nav-item position-relative">
+            <a class="nav-link" href="#">page</a>
+          </li>
+          <li class="nav-item position-relative">
+            <a class="nav-link" href="#" class="">shop</a>
+          </li>
+          <li class="nav-item position-relative">
+            <a class="nav-link" href="#">contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav3">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li>
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </li>
+          <li>
+            <a href="#" data-bs-target="#cart" data-bs-toggle="offcanvas"><i class="fa-solid fa-bars "></i></a>
+          </li>
+          <li class="position-relative">
+            <a href="#" data-bs-target="#shop" data-bs-toggle="offcanvas">
+              <i class="fa-solid fa-basket-shopping"></i>
+              <span class="cart">3</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="offcanvas offcanvas-end p-3" id="cart" data-bs-scroll="true" tabindex="-1">
+    <div class="offcanvas-header">
+      <a class="navbar-brand" href="#">
+        <img src="assets/images/logo-black.png" class="" alt="" max-width="95px">
+      </a>
+      <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <h2 class="">About Us</h2>
+    <div class="offcanvas-body">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud nisi ut aliquip ex ea commodo consequat.</p>
+      <button class="btn ms-auto">contact us</button>
+      <h4 class="pt-3">Contact</h4>
+      <ul class="soc ps-0">
+        <li><i class="fa-solid fa-location-dot pe-3 fs-6"></i>
+          <p class="text-capitalize d-inline-flex">Bowery St., New York, NY 10013,<br /> USA</p>
+        </li>
+        <li><i class="fa-solid fa-phone-flip pe-3 fs-6"></i>
+          <p class="text-capitalize d-inline-flex">+1255-568-6523</p>
+        </li>
+        <li><i class="fa-solid fa-envelope-open-text pe-3 fs-6"></i>
+          <p class="text-capitalize d-inline-flex">information@gmail.com</p>
+        </li>
+      </ul>
+      <ul class="navbar-nav me-0 mb-lg-0 ms-auto justify-content-end">
+        <li>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="offcanvas offcanvas-end p-0 " id="shop" data-bs-scroll="true" tabindex="-1">
+    <div class="offcanvas-header ">
+      <button type="button" class="btn-close shadow-none " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <h2 class="ps-0 pb-3 border-bottom">Cart Items - 4</h2>
+        <div class="cart-list">
+          <div class="shop d-inline-flex position-relative pb-3">
+            <div class="thumb pe-3">
+              <img src="assets/images/tg-1.png" alt="">
+            </div>
+            <div class="contant ">
+              <h4 class="title m-0">
+                <a href="#">Rorem ipsum dolor sit amet.</a>
+              </h4>
+              <span class="price1 p-0">$19.00</span>
+              <a href="#" class="remove "><i class="fa-solid fa-xmark text-light"></i></a>
+            </div>
+          </div>
+          <div class="shop d-inline-flex position-relative pb-3">
+            <div class="thumb pe-3">
+              <img src="assets/images/tg-2.png" alt="">
+            </div>
+            <div class="contant ">
+              <h4 class="title m-0">
+                <a href="#">Rorem ipsum dolor sit amet.</a>
+              </h4>
+              <span class="price1 p-0">$36.00</span>
+              <a href="#" class="remove "><i class="fa-solid fa-xmark text-light"></i></a>
+            </div>
+          </div>
+          <div class="shop d-inline-flex position-relative pb-3">
+            <div class="thumb pe-3">
+              <img src="assets/images/tg-3.png" alt="">
+            </div>
+            <div class="contant">
+              <h4 class="title m-0">
+                <a href="#">Rorem ipsum dolor sit amet.</a>
+              </h4>
+              <span class="price1 p-0">$20.00</span>
+              <a href="#" class="remove "><i class="fa-solid fa-xmark text-light"></i></a>
+            </div>
+          </div>
+           <div class="shop d-inline-flex position-relative pb-5">
+            <div class="thumb pe-3">
+              <img src="assets/images/tg-4.png" alt="">
+            </div>
+            <div class="contant ">
+              <h4 class="title m-0">
+                <a href="#">Rorem ipsum dolor sit amet.</a>
+              </h4>
+              <span class="price1 p-0">$20.00</span>
+              <a href="#" class="remove "><i class="fa-solid fa-xmark text-light"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="cart-bar position-relative">
+          <h2 class="ps-0 pb-3 border-bottom ">Sub Total:<span class="end-0 position-absolute ">$87.00</span></h2>
+        </div>
+        <button class="btn ms-auto me-4">View Cart</button>
+        <button class=" pop1 ms-auto mt-4  me-3">Checkout</button>
+    </div>
+  </div>
+  </div>
+
+  <!--section 1-->
+  <section class="position-reletive pb-5 hero">
+    <span class="position-absolute "><img src="assets/images/hero-shape-2-1.png" class="img-fluid" alt=""></span>
+    <span class="position-absolute end-0"><img src="assets/images/blog-shape-2-2.png" class="img-fluid" alt=""></span>
+    <div class="container">
+      <div class="row d-flex align-items-center ">
+        <div class="col-lg-6 pop order-md-1 order-1">
+          <h1>Distinct <br />
+            coffee aroma</h1>
+          <p>The coffee is brewed by first roasting the green coffee beans over hot <br /> coals in a brazier. given an
+            opportunity to sample.</p>
+          <button class=" pop1 ms-auto mt-3 me-3">contact us</button>
+          <button class="btn ms-auto ">read more</button>
+        </div>
+        <div class="col-lg-6 pop order-md-2 order-2">
+          <img src="assets/images/hero-img-2-1.png" class="img-fluid" alt="">
+          <div class="play-b position-relative flex-sm-wrap">
+            <a href="#" class="play "><i class="fa-solid fa-play position-absolute"></i>
+              <span class="border-effect position-absolute">PLAY VIDEO</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--section 2-->
+
+  <section class="year">
+    <div class="container  position-relative">
+      <div class="w-100  d-lg-block line "></div>
+      <div class=" d--flex   justify-content-md-center">
+          <div class="row  ">
+            <div class="col-lg-3 col-md-6 col-12 text-center">
+              <span class="d-inline-block line-1 px-4 ronded-1">1995</span>
+              <h5 class="fs-2 pb-0 pt-1 mb-0">How we Started</h5>
+              <p class="fs-6">Curabitur semper erat a lacusey <br /> sedn consequat, sit amet quamey.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 text-center">
+              <span class="d-inline-block line-1 px-4 ronded-1">2002</span>
+              <h5 class="fs-2 pb-0 pt-1 mb-0">Coffee Beans</h5>
+              <p class="fs-6">Curabitur semper erat a lacusey <br /> sedn consequat, sit amet quamey.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 text-center">
+              <span class="d-inline-block line-1 px-4 ronded-1">2014</span>
+              <h5 class="fs-2 pb-0 pt-1 mb-0">Family Work</h5>
+              <p class="fs-6">Curabitur semper erat a lacusey <br /> sedn consequat, sit amet quamey.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 text-center">
+              <span class="d-inline-block line-1 px-4 ronded-1">2019</span>
+              <h5 class="fs-2 pb-0 pt-1 mb-0">Bangladeshy Grades</h5>
+              <p class="fs-6">Curabitur semper erat a lacusey <br /> sedn consequat, sit amet quamey.</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!--section 3-->
+  <section class="about position-relative z-index3 ">
+    <span class="position-absolute z-index2"><img src="assets/images/about-shape-2-1.png" class="img-fluid" alt=""></span>
+    <span class="position-absolute end-0 z-index2"><img src="assets/images/about-shape-2-2.png" class="img-fluid" alt=""></span>
+    <div class="container d-flex z-index1 position-relative flex-wrap">
+      <div class="col-lg-6 col-12">
+        <div class="w-100 ">
+          <span class=""><img src="assets/images/about-img-2-1.png" class="img-fluid" alt=""></span>
+          <span class="position-absolute start-0 ab1 ms-auto"><img src="assets/images/about-img-2-2.png" class="img-fluid" alt=""></span>
+        </div>
+      </div>
+      <div class="col-lg-6 col-12 d-flex align-items-center flex-wrap mt-md-5 pt-md-5">
+        <div class="w-100">
+          <span class="sub-title ">ABOUT US</span>
+          <h5 class="">one of the best coffee house<br/>
+            in your home town</h5>
+          <p class="mb-4">Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl <br /> suscipit ligula
+            volutpat, a feugiat urna maximus. Cras massa <br />nibhtincidunt.</p>
+          <p class="mb-3">
+          <p>Donec et nibh maximus, congue est eu, mattis nunc. Praesent ut <br />quam quis quam venenatis fringilla.
+            Morbi vestibulum id tellus<br /> mmodo mattis. Aliquam erat volutpat. Aenean accumsan id mi nec
+            <br />semper. Lorem ipsum.
+          </p>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--section 4-->
+  <section class="special-menu position-relative ">
+    <span class="position-absolute "><img src="assets/images/menu-shape-1.png" class="img-fluid" alt=""></span>
+    <span class="position-absolute end-0 "><img src="assets/images/menu-shape-3.png" class="img-fluid" alt=""></span>
+    <span class="position-absolute start-0 bottom-0"><img src="assets/images/menu-shape-2.png" class="img-fluid" alt=""></span>
+    <span class="position-absolute end-0 bottom-0"><img src="assets/images/menu-shape-4.png" class="img-fluid" alt=""></span>
+    <div class="container">
+      <div class="row">
+        <div class="sp-menu text-center">
+          <span class="sub-title ">Special menu</span>
+          <h5 class="text-center">Cafena Popular Menu</h5>
+          <div class="col-xl-12 text-center z-index">
+            <div class="populer m-auto mb-5 rounded-1">
+              <button class="active ">All</button>
+              <button>chocolate</button>
+              <button>coffee</button>
+              <button>sandwiches</button>
+              <button>sweets</button>
+              <button>Black tea</button>
+              <button>Grean Tea</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-12 z-index">
+          <div class="pl">
+            <img src="assets/images/menu-1.jpeg" class="img-fluid" alt="">
+          </div>
+          <div class="content text-center">
+            <h5 class="pb-0 mb-0"><a href="#">Americano Coffee</a></h5>
+            <h6 class="lebal d-inline-flex">Price - <span class="price"> $325.00 / </span></h6><del>$348</del>
+            <div class="pp-action d-flex align-items-center justify-content-center ">
+              <ul class="d-inline-flex ps-0 pt-3">
+                <li class="me-2 ">
+                  <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                </li>
+                <li class="me-2">
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-regular fa-eye"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-12 ">
+          <div class="pl">
+            <img src="assets/images/menu-2.jpeg" class="img-fluid" alt="">
+          </div>
+          <div class="content text-center">
+            <h5 class="pb-0 mb-0"><a href="#">CAFFÈ LATTE</a></h5>
+            <h6 class="lebal d-inline-flex ps-0 ">Price - <span class="price"> $325.00 / </span></h6><del>$348</del>
+            <div class="pp-action d-flex align-items-center justify-content-center ">
+              <ul class="d-inline-flex ps-0 pt-3">
+                <li class="me-2 ">
+                  <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                </li>
+                <li class="me-2">
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-regular fa-eye"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-12 z-index ">
+          <div class="pl ">
+            <img src="assets/images/menu-3.jpeg" class="img-fluid" alt="">
+          </div>
+          <div class="content text-center">
+            <h5 class="pb-0 mb-0"><a href="#">ESPRESSO RISTRETTO</a></h5>
+            <h6 class="lebal d-inline-flex ps-0 ">Price - <span class="price"> $325.00 / </span></h6><del>$348</del>
+            <div class="pp-action d-flex align-items-center justify-content-center ">
+              <ul class="d-inline-flex ps-0 pt-3">
+                <li class="me-2 ">
+                  <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                </li>
+                <li class="me-2">
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-regular fa-eye"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-12 mt-5">
+          <div class="pl">
+            <img src="assets/images/menu-4.jpeg" alt="">
+          </div>
+          <div class="content text-center">
+            <h5 class="pb-0 mb-0"><a href="#">LATTE MACCHIATO</a></h5>
+            <h6 class="lebal d-inline-flex ps-0 ">Price - <span class="price"> $325.00 / </span></h6><del>$348</del>
+            <div class="pp-action d-flex align-items-center justify-content-center ">
+              <ul class="d-inline-flex ps-0 pt-3">
+                <li class="me-2 ">
+                  <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                </li>
+                <li class="me-2">
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-regular fa-eye"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-12 mt-5">
+          <div class="pl">
+            <img src="assets/images/menu-5.jpeg" alt="">
+          </div>
+          <div class="content text-center">
+            <h5 class="pb-0 mb-0"><a href="#">ESPRESSO LUNGO</a></h5>
+            <h6 class="lebal d-inline-flex ps-0 ">Price - <span class="price"> $325.00 / </span></h6><del>$348</del>
+            <div class="pp-action d-flex align-items-center justify-content-center ">
+              <ul class="d-inline-flex ps-0 pt-3">
+                <li class="me-2 ">
+                  <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                </li>
+                <li class="me-2">
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-regular fa-eye"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-12 mt-5 z-index">
+          <div class="pl">
+            <img src="assets/images/menu-6.jpeg" alt="">
+          </div>
+          <div class="content text-center">
+            <h5 class="pb-0 mb-0"><a href="#">CAFÈ AU LAIT</a></h5>
+            <h6 class="lebal d-inline-flex ps-0 ">Price - <span class="price"> $325.00 / </span></h6><del>$348</del>
+            <div class="pp-action d-flex align-items-center justify-content-center ">
+              <ul class="d-inline-flex ps-0 pt-3">
+                <li class="me-2 ">
+                  <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                </li>
+                <li class="me-2">
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-regular fa-eye"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--section 5-->
+  <section class="testimonial">
+    <!-- <img src="assets/images/testimonial-bg-2.jpeg" alt=""> -->
+    <div class="container">
+      <div class="row ">
+        <div class="col-xl-12 ">
+          <div class="heading text-center position-relative">
+            <span class="sub-title ">Testimonial</span>
+            <h5 class="text-center text">Our customer review</h5>
+            <img src="assets/images/t-quote.png" alt="">
+
+            <div id="carouselExampleIndicators" class="carousel slide" >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <p class="text text-1 py-4">Very good quality of food and service. Vast menu with child friendly items as
+                    well as local <br />seafood and even entrees for those who dont like seafood. Great place! Thanks.
+                    We<br /> absolutely love everything there!</p>
+                  <img src="assets/images/tm-author.png" class="pb-3" alt="">
+                  <h4 class="name">Rasalina De Willamson</h4>
+                  <span class="degination">Founder & co</span>
+                </div>
+                <div class="carousel-item">
+                  <p class="text text-1 py-4">Very good quality of food and service. Vast menu with child friendly items as
+                    well as local <br />seafood and even entrees for those who dont like seafood. Great place! Thanks.
+                    We<br /> absolutely love everything there!</p>
+                  <img src="assets/images/tm-author.png" class="pb-3" alt="">
+                  <h4 class="name">Rasalina De Willamson</h4>
+                  <span class="degination">Founder & co</span>
+                </div>
+                <div class="carousel-item ">
+                  <p class="text text-1 py-4">Very good quality of food and service. Vast menu with child friendly items as
+                    well as local <br />seafood and even entrees for those who dont like seafood. Great place! Thanks.
+                    We<br /> absolutely love everything there!</p>
+                  <img src="assets/images/tm-author.png" class="pb-3" alt="">
+                  <h4 class="name">Rasalina De Willamson</h4>
+                  <span class="degination">Founder & co</span>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span  class="fa-solid fa-arrow-left-long text-white" aria-hidden="true"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="fa-solid fa-arrow-right-long text-white" aria-hidden="true"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--section 6-->
+  <section class="top-grade position-relative z-index3">
+    <span class="position-absolute z-index2"><img src="assets/images/top-grade-shape-2-1.png" class="img-fluid" alt=""></span>
+    <span class="position-absolute end-0 z-index2"><img src="assets/images/top-grade-shape-2-2.png" class="img-fluid" alt=""></span>
+    <div class="container z-index1">
+      <div class="section-h text-center">
+        <span class="sub-title">top grade</span>
+        <h5 class="text-center">world top Grade</h5>
+        <div class="row pt-5  text-center">
+          <div class="col-lg-3">
+            <div class="top-item ">
+              <img src="assets/images/tg-2-1.jpeg" class="img-fluid" alt=" ">
+            </div>
+            <div class="top-content">
+              <h2 class="top-sub mt-4 ">Americano Grade</h2>
+              <p>
+                Curabitur semper erat a lacusey<br /> consequat, sit amet quam
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 margin">
+            <div class="top-item">
+              <img src="assets/images/tg-2-2.jpeg" alt=" ">
+            </div>
+            <div class="top-content">
+              <h2 class="top-sub mt-4">arebica Green</h2>
+              <p>
+                Curabitur semper erat a lacusey<br/> consequat, sit amet quam
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="top-item">
+              <img src="assets/images/tg-2-3.jpeg" alt=" ">
+            </div>
+            <div class="top-content">
+              <h2 class="top-sub mt-4">Mixed Rosted</h2>
+              <p>
+                Curabitur semper erat a lacusey<br /> consequat, sit amet quam
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 margin">
+            <div class="top-item mt-4">
+              <img src="assets/images/tg-2-4.jpeg" alt=" ">
+            </div>
+            <div class="top-content">
+              <h2 class="top-sub mt-4">Robasta Rosted</h2>
+              <p>
+                Curabitur semper erat a lacusey<br /> consequat, sit amet quam
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--section 7-->
+  <section class="news">
+    <div class="container">
+      <span class="sub-title">News & Blog</span>
+      <h5 class="news-bl">Latest news & Blog</h5>
+      <button class="btn ms-auto d-flex justify-content-end mb-5 me-4">learn more</button>
+      <div class="row ms-auto start-0 end-0">
+        <div class="col-lg-4 col-12 ">
+          <div class="pl-2">
+            <img src="assets/images/blog-2-1.jpeg" alt="">
+          </div>
+          <div class="content-details">
+            <span class="">BY: </span>
+            <h6 class="d-inline-flex">RASALINA</h6>
+            <h3 class="news-h">Questions business must be able to answers </h3>
+            <a href="#" class="news-a d-flex align-item-center">Read more <i
+                class="fa-solid fa-arrow-right-long ps-2"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12">
+          <div class="pl-2">
+            <img src="assets/images/blog-2-2.jpeg" alt="">
+          </div>
+          <div class="content-details">
+            <span class="">BY: </span>
+            <h6 class="d-inline-flex">RASALINA</h6>
+            <h3 class="news-h">Build a cool mornig with cafena Coffee </h3>
+            <a href="#" class="news-a d-flex align-item-center">Read more <i
+                class="fa-solid fa-arrow-right-long ps-2"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12">
+          <div class="pl-2">
+            <img src="assets/images/blog-2-3.jpeg" alt="">
+          </div>
+          <div class="content-details">
+            <span class="">BY: </span>
+            <h6 class="d-inline-flex">RASALINA</h6>
+            <h3 class="news-h">ideal cocktails from our barmen for pefect mood </h3>
+            <a href="#" class="news-a d-flex align-item-center">Read more <i
+                class="fa-solid fa-arrow-right-long ps-2"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--footer-->
+  <section class="footer position-relative">
+    <div class="container row">
+      <div class="footer-top  d-flex  justify-content-center flex-wrap">
+        <a href="#" class="position-absolute top-0 start-50 translate-middle text-dark"><i
+            class="fa-solid fa-arrow-up"></i></a>
+      </div>
+      <div class="footer-details d-flex align-item-center flex-wrap">
+        <div class="col-xl-3 col-lg-3 col-12 mb-3">
+          <div class="phone-c text-center">
+            <img src="assets/images/ft-phone.png" class="pe-2" alt="">
+            <span class="footer-s">Phone :</span>
+            <a href="#" class="footer-a">+88019 339 702 520</a>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-12 mb-3">
+          <div class="location text-center">
+            <img src="assets/images/ft-map-marker (1).png" class="pe-2" alt="">
+            <span class="footer-s">Address :</span>
+            <a href="#" class="footer-a">30 North West New</a>
+          </div>
+        </div>
+        <div class="col-xl-5 col-lg-5 col-12">
+          <div class="subscribe ">
+            <form >
+              <div class="position-relative col-9 m-auto">
+              <input type="email" id="email" placeholder="Entre the Email" >
+              <button class="subscribe-btn sp " type="submit">Subscribe <i
+                  class="fa-solid fa-paper-plane ps-1"></i></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="row pb-5 justify-content-center">
+        <div class="col-lg-7 col-12">
+          <div class="footer-logo">
+            <img src="assets/images/logo.png" alt="">
+            <p class="text-light pt-4 pb-0 mb-0">Donec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam
+              quis quam venenatis fringilla. Morbi vestibulum</p>
+          </div>
+        </div>
+        <div class="col-lg-5 position-relative col-12">
+          <div class="footer-icon bottom-0 end-0 position-absolute ">
+            <ul class="navbar-nav me-0 mb-2 mb-lg-0 ms-auto justify-content-end ">
+              <li>
+                <a href="#"><i class="fa-brands fa-twitter hover"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f hover"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube hover"></i></a>
+                <a href="#"><i class="fa-brands fa-google-plus-g hover"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram hover"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer-menu">
+    <div class="container">
+      <div class="row  justify-content-center">
+        <div class="col-lg-9 d-lg-block d-none">
+          <div class="footer-m">
+            <nav>
+              <ul class="d-flex ps-0">
+                <li>
+                  <a href="#" class="active2 pe-4 ">Home</a>
+                </li>
+                <li>
+                  <a href="#" class="px-4  active1">about us</a>
+                </li>
+                <li>
+                  <a href="#" class="px-4  active1">menu</a>
+                </li>
+                <li>
+                  <a href="#" class="px-4  active1">Reservation</a>
+                </li>
+                <li>
+                  <a href="#" class="px-4  active1">pages</a>
+                </li>
+                <li>
+                  <a href="#" class="px-4 t active1">shop</a>
+                </li>
+                <li>
+                  <a href="#" class="px-4 t active1">blog</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="col-lg-3 text-center text-lg-end">
+          <div class="go-top">
+            <a href="#">
+              <span class="text-uppercase pe pe-2">
+                go top
+              </span>
+              <i class="fa-solid fa-arrow-up text-light fs-6 "></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <script src="assets/js/bootstrap.bundle.min.js"></script> -->
+  <script src="assets/js/popper.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
